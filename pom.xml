@@ -70,12 +70,12 @@
    <repository>
      <id>release-repo</id>
      <name>release-repo</name>
-     <url>http://ec2-34-229-14-154.compute-1.amazonaws.com:8081/nexus/content/repositories/release-repo/</url>
+     <url>http://ec2-54-235-230-239.compute-1.amazonaws.com:8081/nexus/content/repositories/release-repo/</url>
    </repository>  
    <snapshotRepository>
     <id>myapp-snapshot</id>
     <name>myapp-snapshot</name> 
-    <url>http://ec2-34-229-14-154.compute-1.amazonaws.com:8081/nexus/content/repositories/myapp-snapshot/</url>
+    <url>http://ec2-54-235-230-239.compute-1.amazonaws.com:8081/nexus/content/repositories/myapp-snapshot/</url>
    </snapshotRepository>
  </distributionManagement>
 </project>
