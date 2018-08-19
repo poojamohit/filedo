@@ -21,7 +21,11 @@
                        <version>4.2</version>
                        <scope>provided</scope>
                 </dependency>
- 
+                <dependency>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+                        <version>4.11</version> 
+                </dependency>  
 
 
         </dependencies>
@@ -49,7 +53,7 @@
         		 <artifactId>tomcat7-maven-plugin</artifactId>
         		 <version>2.2</version>
                          <configuration>
-                           <url>http://ec2-107-23-175-177.compute-1.amazonaws.com:8080/manager/text</url>
+                           <url>http://ec2-18-207-220-97.compute-1.amazonaws.com:8080/manager/text</url>
 		           <server>tomcat7</server>
 			   <username>tomcat</username>
 			   <password>s3cert</password>
@@ -82,12 +86,12 @@
    <repository>
      <id>release-repo</id>
      <name>release-repo</name>
-     <url>http://ec2-54-209-178-128.compute-1.amazonaws.com:8081/nexus/content/repositories/release-repo/</url>
+     <url>http://ec2-34-228-162-146.compute-1.amazonaws.com:8081/nexus/content/repositories/release-repo/</url>
    </repository>  
    <snapshotRepository>
     <id>myapp-snapshot</id>
     <name>myapp-snapshot</name> 
-    <url>http://ec2-54-209-178-128.compute-1.amazonaws.com:8081/nexus/content/repositories/myapp-snapshot/</url>
+    <url>http://ec2-34-228-162-146.compute-1.amazonaws.com:8081/nexus/content/repositories/myapp-snapshot/</url>
    </snapshotRepository>
  </distributionManagement>
 </project>
